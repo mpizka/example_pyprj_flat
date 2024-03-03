@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "timemachine"
+version = "0.0.1"
+authors = [
+  {name="Manfred Pizka", email="mpizka@protonmail.com"},
+]
+description = "Just a small experiment Marty!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mpizka/timemachine"
+Issues = "https://github.com/mpizka/timemachine/issues"
